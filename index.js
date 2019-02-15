@@ -4,9 +4,6 @@ var inquirer = require(inquirer);
 
 var answerArray = ["plato", "aristotle", "socrates", "nietzsche", "descartes", "locke", "sarte", "hum", "confucius", "hobbes", "foucault"];
 
-function(){
-
-}
 var theChoice = Math.floor(Math.random() * answerArray.length);
 
 var theAnswer = answerArray[theChoice];
